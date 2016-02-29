@@ -10,7 +10,7 @@ default: &default
   username: root
   password: mysql123
   host: localhost
-  socket: /tmp/mysql.sock
+#  socket: /tmp/mysql.sock
     
 development:
   <<: *default
